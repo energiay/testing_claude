@@ -10,21 +10,21 @@ import "./index.css"
 function App({settings}) {
     const bodyRef = useRef(null)
 
-    return (
-        <div className={Classes.App}>
-            zhora
-        </div>
-    )
     //return (
     //    <div className={Classes.App}>
-    //        <BodyRefProvider bodyRef={bodyRef}>
-    //            <Header />
-    //            <div ref={bodyRef}>
-    //                <Body settings={settings.data}/>
-    //            </div>
-    //        </BodyRefProvider>
+    //        zhora
     //    </div>
     //)
+    return (
+        <div className={Classes.App}>
+            <BodyRefProvider bodyRef={bodyRef}>
+                <Header />
+                <div ref={bodyRef}>
+                    <Body settings={settings.data}/>
+                </div>
+            </BodyRefProvider>
+        </div>
+    )
 }
 
 export default App
