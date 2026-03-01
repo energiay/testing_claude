@@ -1,0 +1,20 @@
+.mobile {
+    margin-top: 16px;
+}
+
+.tabs {
+    display: flex;
+    gap: 3px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.contant {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    border: 1px solid #ebebeb;
+    border-radius: 12px;
+    padding: 22px 0px;
+}
+

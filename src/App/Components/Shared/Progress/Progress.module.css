@@ -1,0 +1,47 @@
+.progress_hover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.progress_hover:hover {
+    background-color: var(--hover-bg-color, #F9FCFF);
+}
+
+.progress_wrap {
+    flex: 1 1 100%;
+    height: 4px;
+    border-radius: 6px;
+    margin: 0 18px;
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: 20;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.value {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: -14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.percent {
+    font-size: 7px;
+}

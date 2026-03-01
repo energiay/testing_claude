@@ -1,0 +1,19 @@
+.record {
+    display: flex;
+    justify-content: center;
+    width: 92px;
+    border: 1px solid #e6e7e8;
+    border-radius: 12px;
+    padding: 8px 9px 7px 9px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.record:hover {
+    border: 1px solid var(--hover-border-color, #1A73E8);
+}
+
+.active {
+    border: 1px solid #1A73E8;
+    background: #E3F2FF;
+}

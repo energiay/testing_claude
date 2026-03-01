@@ -1,0 +1,18 @@
+.breadcrumb {
+    background: #EBEBEB;
+    border-radius: 50px;
+    border: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 7px 6px 6px 6px;
+}
+
+.breadcrumb.click:hover {
+    border: 1px solid #1A73E8;
+    cursor: pointer;
+}
+
+.text {
+    white-space: nowrap;
+}

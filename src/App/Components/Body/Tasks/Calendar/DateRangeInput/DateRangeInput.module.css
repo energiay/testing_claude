@@ -1,0 +1,55 @@
+.input {
+    display: inline-flex;
+    gap: 12px;
+    padding: 5px 12px;
+    background: #F9F9F9;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: inherit;
+    white-space: nowrap;
+    align-items: stretch;
+    border: 1px solid transparent;
+}
+
+.input:hover {
+    /*border: 1px solid #1A73E8;*/
+}
+
+.values {
+    display: inline-flex;
+    align-items: center;
+}
+
+.iconWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background: #E3F2FF;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.divider {
+    flex: 0 0 1px;
+    background-color: #DFE0E5;
+}
+
+.dateText {
+    font-size: 18px;
+    color: rgba(9, 11, 22, 0.94);
+}
+
+.placeholder {
+    color: #9ca3af;
+    font-weight: 400;
+}
+
+.separator {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: #6b7280;
+    padding: 0 2px;
+}

@@ -1,0 +1,31 @@
+.cell_wrap {
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.cell_margin_right {
+    border-top: 1px solid rgba(9, 11, 22, 0.1);
+    margin: 0px 5px;
+    display: flex;
+    align-items: stretch;
+    flex: 1 1 auto;
+}
+
+.cell_margin_top {
+    margin: 5px 0px;
+    display: flex;
+    align-items: stretch;
+    flex: 1 1 auto;
+}
+
+.first_cell {
+    margin-left: 0;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    justify-content: center;
+}

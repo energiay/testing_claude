@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 11px 0 0;
+    --col-1: 166px;
+    --col-2: 156px;
+    --col-3: 70px;
+    --col-4: 70px;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        font-size: 12px;
+        --col-1: 134px;
+        --col-2: 86px;
+        --col-3: 50px;
+        --col-4: 50px;
+    }
+}

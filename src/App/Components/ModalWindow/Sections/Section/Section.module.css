@@ -1,0 +1,33 @@
+.section {
+    border: 1px solid #f9f9f9;
+    border-radius: 8px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.header {
+    background: #f9f9f9;
+    padding: 14px 10px 15px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    color: #171924;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.drop_down {
+    border-left: 1px solid #DFE0E5;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    overflow: hidden;
+    transition: max-height 400ms;
+}

@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    display: flex;
+    border-left: 1px solid rgba(9, 11, 22, 0.1);
+}
+
+.record {
+    display: flex;
+}
+
+.record > .table:last-child {
+    border-right: 1px solid rgba(9, 11, 22, 0.1);
+}

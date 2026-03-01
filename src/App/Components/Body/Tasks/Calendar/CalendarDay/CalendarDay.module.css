@@ -1,0 +1,76 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Полоска фона диапазона */
+.inRange::before {
+    content: '';
+    position: absolute;
+    inset: 2px 0;
+    background-color: #e3f2ff;
+    z-index: 0;
+}
+
+/* Полоска начинается с середины ячейки */
+.startEdge::before {
+    left: 50%;
+}
+
+/* Полоска заканчивается в середине ячейки */
+.endEdge::before {
+    right: 50%;
+}
+
+/* Один день — и начало и конец */
+.startEdge.endEdge::before {
+    display: none;
+}
+
+.day {
+    position: relative;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1a1a2e;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+        background 0.15s ease,
+        color 0.15s ease;
+    flex-shrink: 0;
+}
+
+.day:hover:not(:disabled):not(.start):not(.end) {
+    background-color: #d0dffe;
+}
+
+.start,
+.end {
+    background-color: #1a73e8;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.start:hover,
+.end:hover {
+    background-color: #1a73e8;
+}
+
+.today:not(.start):not(.end) {
+    color: #1a73e8;
+}
+
+.otherMonth {
+    color: rgba(9, 11, 22, 0.48);
+}

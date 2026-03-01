@@ -1,0 +1,26 @@
+.head {
+    padding: 5px 0 12px 12px;
+}
+
+.content {
+    padding: 8px 0 6px 12px;
+    white-space: nowrap;
+}
+
+.duration {
+    width: 100%;
+}
+
+@media (max-width: 1024px) { 
+    .mobile_first_collumn_padding {
+        padding-left: 2px;
+    }
+
+    .mobile_first_rec_padding {
+        padding-top: 3px;
+    }
+
+    .mobile_last_rec_padding {
+        padding-bottom: 1px;
+    }
+}

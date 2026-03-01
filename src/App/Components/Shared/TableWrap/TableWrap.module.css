@@ -1,0 +1,33 @@
+.table {
+    margin-top: -1px;
+    display: flex;
+    gap: 7px;
+}
+
+.header {
+    flex: 0 0 112px;
+
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.office {
+    font-size: 15px;
+}
+
+.contant {
+    border: 1px solid #ebebeb;
+    border-radius: 12px;
+    flex: 1 1 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    font-weight: 700;
+}

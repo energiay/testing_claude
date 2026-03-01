@@ -1,0 +1,45 @@
+.first_cell {
+    border-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+.header_no_line {
+    border-top: 0 !important;
+}
+
+.header_second_column {
+    border-radius: 12px 0 0 0;
+    border-top: 1px solid rgba(9, 11, 22, 0.1);
+}
+
+.col_3_4 {
+    border-radius: 0 12px 0 0;
+    border-top: 1px solid rgba(9, 11, 22, 0.1);
+    /*flex: 0 0 calc(var(--col-3) + var(--col-4)) !important;*/
+    flex: 0 0 calc(70px + 71px) !important;
+}
+.col_3 {
+    flex: 0 0 var(--col-3) !important;
+}
+.col_4 {
+    flex: 0 0 var(--col-4) !important;
+    border-right: 0 !important;
+}
+
+.record:last-child > .column {
+    border-bottom: 1px solid rgba(9, 11, 22, 0.1);
+}
+
+.record:last-child > .column:nth-child(2) {
+    border-radius: 0 0 0 12px;
+}
+
+.record:last-child > .column:last-child {
+    border-radius: 0 0 12px 0;
+}
+
+@media (max-width: 1024px) {
+    .col_3_4 {
+        flex: 0 0 calc(50px + 51px) !important;
+    }
+}

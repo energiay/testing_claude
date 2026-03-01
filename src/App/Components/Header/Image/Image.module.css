@@ -1,0 +1,9 @@
+.Image {
+    width: 393px;
+    height: 391px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 0;
+    right: 0;
+}

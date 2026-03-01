@@ -1,0 +1,6 @@
+.sections {
+    padding: 0 12px 12px 12px;
+    height: 450px;
+    overflow: hidden;
+    overflow-y: scroll;
+}

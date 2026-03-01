@@ -1,0 +1,11 @@
+.duration {
+    width: 100%;
+    font-size: 9px;
+}
+
+.duration > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

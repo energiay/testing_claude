@@ -1,0 +1,25 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(9, 11, 22, 0.1);
+}
+
+.column:nth-child(1) {
+    flex: 0 0 var(--col-1);
+}
+.column:nth-child(2) {
+    flex: 0 0 var(--col-2);
+}
+.column:nth-child(3) {
+    flex: 0 0 var(--col-3);
+}
+.column:nth-child(4) {
+    flex: 0 0 var(--col-4);
+}
+
+.column:first-child {
+    border-left: 0;
+}
+.column:last-child {
+    border-right: 1px solid rgba(9, 11, 22, 0.1);
+}

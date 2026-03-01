@@ -1,0 +1,21 @@
+.App {
+    margin: 0 auto;
+    width: 1180px;
+    flex-grow: 1;
+    margin-bottom: 28px;
+}
+
+.App a {
+    text-decoration: underline;
+    color: #287be9 !important;
+}
+
+.App a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 1180px) {
+    .App {
+        width: 100%;
+    }
+}

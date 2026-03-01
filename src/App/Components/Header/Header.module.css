@@ -1,0 +1,65 @@
+.Header {
+    display: flex;
+    gap: 60px;
+    min-height: 400px;
+    overfow: hidden;
+}
+
+.title {
+    position: relative;
+    z-index: 100;
+    color: #090b16;
+    opacity: .94;
+    flex: 1 1 auto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+}
+
+.title > div {
+    width: 58%;
+    max-width: 770px;
+    position: fixed;
+}
+
+
+@media (max-width: 1180px) { 
+    .Header {
+        padding: 0 32px;
+    }
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px) { 
+    .Header {
+        min-height: 182px;
+    }
+    .title > div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 850px) { 
+    .title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 720px) {
+    .title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Header {
+        padding: 0 16px;
+    }
+    .title > div {
+        width: 85%;
+    }
+}
